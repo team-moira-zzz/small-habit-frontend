@@ -7,6 +7,7 @@ module.exports = defineConfig({
 
   // 프록시 설정
   devServer: {
+    port: 3000,
     proxy: 'http://localhost:8080'
   },
 })
